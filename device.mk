@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
     SystemUIResDm2q \
     WifiResTargetDm2q
 
+# Touch features
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch-service.samsung
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \
