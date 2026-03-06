@@ -1,4 +1,4 @@
-# Pinned blobs are extracted from S9160ZHS6DYI3
+# Pinned blobs are extracted from S9160ZHS6EZA1
 # Unpinned blobs are extracted from S911BXXS8EZA1
 
 # ACDB
@@ -271,9 +271,6 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
-vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|1f82d8fa3867083151de8b5d520c669e932745b9
-vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|465c006b031d55d4b1d040bab2041fdc2d1737f7
-vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|c36a92551307eb994c1ff72186fd1f6616ccf76f
 
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_DM2_S6E3FAC_AMB655AY01.json
@@ -302,9 +299,6 @@ vendor/firmware/evass.b18
 vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
-vendor/firmware/evass.b19:odm/firmware/evass.b19|0100de335bbacacd8c95b48d1ae22b19d532201c
-vendor/firmware/evass.mbn:odm/firmware/evass.mbn|ddb1025730edaf048364fb60da3c81206bc3e9be
-vendor/firmware/evass.mdt:odm/firmware/evass.mdt|16cf5cf774d7d0c877b218768948f3268f9c9c74
 
 # Fingerprint
 vendor/lib64/libsfp_sensor.so
@@ -320,9 +314,6 @@ vendor/firmware/a740_zap.b02
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
 vendor/firmware/gmu_gen70200.bin
-vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|f4b5d84367e625232a3f45c0709511d451067fdf
-vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|ed7ab06cb607beffd2ef56875a71dda2466558a7
-vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|05c52ffbed6150da6799d9788e94531c3596f156
 
 # Media
 vendor/lib64/libqc2audio_hwaudiocodec.so
@@ -336,6 +327,18 @@ vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/init/vendor.samsung.rild.rc
+
+# S91x0 firmware
+vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|d35d07bcb46c4a6c3e698649355cbddabf130206
+vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|11391352041c93edae60f7d910a4d471b563e0a7
+vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|396e1274600e36495a119c943dc1908f0f320d9a
+vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|b7035f8a6501bd7c0575790affc18d8c7436af58
+vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|f59e4a3d7b45b8e8a5a00e8b5ebe8cfa929f0aaf
+vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|ed7808fe6ae07b04d966253d26ac92000f08e5b8
+vendor/firmware/evass.b19:odm/firmware/evass.b19|fbcdffef0cd1ddfad1f64b18e5711485cffa5dea
+vendor/firmware/evass.mbn:odm/firmware/evass.mbn|3ff02119de9eb6ad6329f590aad6434b4580953c
+vendor/firmware/evass.mdt:odm/firmware/evass.mdt|7a5138444b04a44997322d06b4bbb5bbf8c8c3dd
+vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|508c29ff04b82ff5581a55eaa180a8ad21f72ff1
 
 # Sensors config
 vendor/etc/sensors/config/sns_gyro_cal.json
@@ -368,7 +371,6 @@ vendor/firmware/vpu30_4v_16mb_unsigned.mbn
 vendor/firmware/vpu30_4v_unsigned.mbn
 vendor/firmware/vpu33_4v.mbn
 vendor/firmware/vpu33_4v_unsigned.mbn
-vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|1cb685481a26655bbf74ee28494107be50b87ac4
 
 # Vendor firmware
 vendor/firmware/hpbtfw21.tlv
